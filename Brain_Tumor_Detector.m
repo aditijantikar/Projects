@@ -1,30 +1,4 @@
 function varargout = Brain_Tumor_Detector(varargin)
-% BRAIN_TUMOR_DETECTOR MATLAB code for Brain_Tumor_Detector.fig
-%      BRAIN_TUMOR_DETECTOR, by itself, creates a new BRAIN_TUMOR_DETECTOR or raises the existing
-%      singleton*.
-%
-%      H = BRAIN_TUMOR_DETECTOR returns the handle to a new BRAIN_TUMOR_DETECTOR or the handle to
-%      the existing singleton*.
-%
-%      BRAIN_TUMOR_DETECTOR('CALLBACK',hObject,eventData,handles,...) calls the local
-%      function named CALLBACK in BRAIN_TUMOR_DETECTOR.M with the given input arguments.
-%
-%      BRAIN_TUMOR_DETECTOR('Property','Value',...) creates a new BRAIN_TUMOR_DETECTOR or raises the
-%      existing singleton*.  Starting from the left, property value pairs are
-%      applied to the GUI before Brain_Tumor_Detector_OpeningFcn gets called.  An
-%      unrecognized property name or invalid value makes property application
-%      stop.  All inputs are passed to Brain_Tumor_Detector_OpeningFcn via varargin.
-%
-%      *See GUI Options on GUIDE's Tools menu.  Choose "GUI allows only one
-%      instance to run (singleton)".
-%
-% See also: GUIDE, GUIDATA, GUIHANDLES
-
-% Edit the above text to modify the response to help Brain_Tumor_Detector
-
-% Last Modified by GUIDE v2.5 23-Feb-2022 05:01:50
-
-% Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
                    'gui_Singleton',  gui_Singleton, ...
